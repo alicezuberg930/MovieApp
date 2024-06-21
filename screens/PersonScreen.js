@@ -5,7 +5,7 @@ import { ChevronLeftIcon, HeartIcon } from "react-native-heroicons/outline"
 import MovieList from "../components/MovieList"
 import { styles } from "../theme"
 import Loading from "../components/Loading"
-import { fetchPersonDetails, fetchPersonMovies, image342 } from "../api/moviedb"
+import { fallbackMoviePoster, fetchPersonDetails, fetchPersonMovies, image342 } from "../api/moviedb"
 
 
 const { width, height } = Dimensions.get('window')
@@ -54,7 +54,7 @@ export default function PersonScreen() {
                             <View className="flex-row justify-center"
                                 style={{ shadowColor: 'gray', shadowRadius: 40, shadowOffset: { width: 0, height: 5 }, shadowOpacity: 1 }}>
                                 <View className="items-center rounded-full overflow-hidden h-72 w-72 border border-neutral-500">
-                                    <Image source={{ uri: image342(personDetails?.profile_path) }}
+                                    <Image source={{ uri: image342(personDetails?.profile_path) || fallbackMoviePoster }}
                                         style={{ height: height * 0.43, width: width * 0.74 }}
                                     />
                                 </View>

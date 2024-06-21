@@ -9,7 +9,7 @@ import LinearGradient from "react-native-linear-gradient";
 import Cast from "../components/Cast";
 import MovieList from "../components/MovieList";
 import Loading from "../components/Loading";
-import { fetchMovieCredits, fetchMovieDetails, fetchSimilarMovies, image500 } from "../api/moviedb";
+import { fallbackMoviePoster, fetchMovieCredits, fetchMovieDetails, fetchSimilarMovies, image500 } from "../api/moviedb";
 
 const { width, height } = Dimensions.get('window')
 const ios = Platform.OS == 'ios'
@@ -66,7 +66,7 @@ export default function MovieDetailsScreen() {
                         (
                             <View>
                                 <Image
-                                    source={{ uri: image500(movie?.poster_path) }}
+                                    source={{ uri: image500(movie?.poster_path) || fallbackMoviePoster }}
                                     style={{ width: width, height: height * 0.55 }}
                                 />
                                 <LinearGradient colors={['transparent', 'rgba(23,23,23,0.8)', 'rgba(23,23,23,1)']}

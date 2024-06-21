@@ -34,8 +34,8 @@ export const image500 = (path) => path ? `https://image.tmdb.org/t/p/w500/${path
 export const image342 = (path) => path ? `https://image.tmdb.org/t/p/w342/${path}` : null
 export const image185 = (path) => path ? `https://image.tmdb.org/t/p/w185/${path}` : null
 
-export const fallbackMoviePoster = 'https://img.myloview.com/stickers'
-export const fallbackPersonImage = 'https://encrypted-tbn0.gstatic.com/images'
+export const fallbackMoviePoster = 'https://www.wycliffe.ca/wp-content/uploads/bb-plugin/cache/member-fallback-user-image-300x300-circle-4b1323daf0b95dbc95352417464ca5d3-605afc59e679f.png'
+export const fallbackPersonImage = 'https://www.wycliffe.ca/wp-content/uploads/bb-plugin/cache/member-fallback-user-image-300x300-circle-4b1323daf0b95dbc95352417464ca5d3-605afc59e679f.png'
 
 export const fetchTrendingMovies = () => {
     return apiCall(trendingMoviesEndpoint)
@@ -43,6 +43,10 @@ export const fetchTrendingMovies = () => {
 
 export const fetchUpcomingMovies = () => {
     return apiCall(upcomingMoviesEndpoint)
+}
+
+export const fetchTopRatedMovies = () => {
+    return apiCall(topratedMoviesEndpoint)
 }
 
 export const fetchMovieDetails = (id) => {
