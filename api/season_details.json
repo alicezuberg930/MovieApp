@@ -1,0 +1,620 @@
+{
+    "_id": "5253809c19c29579401cad12",
+    "air_date": "1993-09-11",
+    "episodes": [
+        {
+            "air_date": "1993-09-11",
+            "episode_number": 1,
+            "episode_type": "standard",
+            "id": 29470,
+            "name": "The Date Lottery",
+            "overview": "It's been years since Zack, Screech, Slater, Jessie, Kelly and Lisa left Bayside High. Now some new students have arrived--Scott, Weasel, Tommy D., Megan, Lindsay and Vicki. In this first episode, a date auction is held to raise money, but new transfer student Scott Erickson from Valley High persuades Weasel to hack into the computer to switch the date names.",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 8,
+            "vote_count": 1,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                }
+            ],
+            "guest_stars": [
+                {
+                    "character": "Gymnast",
+                    "credit_id": "575bf843c3a36845510009cb",
+                    "order": 607,
+                    "adult": false,
+                    "gender": 2,
+                    "id": 945542,
+                    "known_for_department": "Acting",
+                    "name": "Jasper Cole",
+                    "original_name": "Jasper Cole",
+                    "popularity": 6.532,
+                    "profile_path": "/18mmNj8eKPn9a1n3G0yvy650Bd8.jpg"
+                }
+            ]
+        },
+        {
+            "air_date": "1993-09-18",
+            "episode_number": 2,
+            "episode_type": "standard",
+            "id": 29475,
+            "name": "The Slumber Party",
+            "overview": "Scott disguises himself as his cousin to sneak into the girls' sleep over.",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 9,
+            "vote_count": 1,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                }
+            ],
+            "guest_stars": [
+                {
+                    "character": "",
+                    "credit_id": "5253809f19c29579401caf27",
+                    "order": 501,
+                    "adult": false,
+                    "gender": 2,
+                    "id": 43858,
+                    "known_for_department": "Acting",
+                    "name": "Ryan Hurst",
+                    "original_name": "Ryan Hurst",
+                    "popularity": 29.481,
+                    "profile_path": "/467wpYYeeDyF4MeoDMuNp4bwgzH.jpg"
+                }
+            ]
+        },
+        {
+            "air_date": "1993-09-25",
+            "episode_number": 3,
+            "episode_type": "standard",
+            "id": 29477,
+            "name": "A Kicking Weasel",
+            "overview": "Fed up with being laughed at by the football team, Weasel kicks the soccer net and gets a chance to be on the football team. Scott fixes Megan, Lindsay and Vicki's battle for a single varsity cheerleading spot.",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 8,
+            "vote_count": 1,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                }
+            ],
+            "guest_stars": [
+                {
+                    "character": "",
+                    "credit_id": "525380a019c29579401caf9f",
+                    "order": 509,
+                    "adult": false,
+                    "gender": 2,
+                    "id": 154295,
+                    "known_for_department": "Acting",
+                    "name": "Michael Milhoan",
+                    "original_name": "Michael Milhoan",
+                    "popularity": 5.885,
+                    "profile_path": "/oTXRBzb8KUGC2TXtXEIheGjBANG.jpg"
+                }
+            ]
+        },
+        {
+            "air_date": "1993-10-02",
+            "episode_number": 4,
+            "episode_type": "standard",
+            "id": 29472,
+            "name": "Home Shopping",
+            "overview": "Just before exams, Scott leads the gang on a venture marketing a so-called memory-enhancing drug on a local cable access channel, calling their show the \"\"Bayside Shopping Network.\"\"",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 10,
+            "vote_count": 1,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                }
+            ],
+            "guest_stars": [
+                {
+                    "character": "",
+                    "credit_id": "5253809f19c29579401cae99",
+                    "order": 500,
+                    "adult": false,
+                    "gender": 2,
+                    "id": 29709,
+                    "known_for_department": "Acting",
+                    "name": "Mark Blankfield",
+                    "original_name": "Mark Blankfield",
+                    "popularity": 5.422,
+                    "profile_path": "/wnue13KKCtV8RMJ6FXXo1ZoeA1G.jpg"
+                }
+            ]
+        },
+        {
+            "air_date": "1993-10-09",
+            "episode_number": 5,
+            "episode_type": "standard",
+            "id": 29469,
+            "name": "Love Is on the Air",
+            "overview": "Scott signs up to get on the air at the school's radio station, hoping to attract the girls. But they all ignore him when they hear Weasel, who is giving advice on love and romance under the name \"\"Dr. Luv.\"\"",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 0,
+            "vote_count": 0,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                }
+            ],
+            "guest_stars": []
+        },
+        {
+            "air_date": "1993-10-16",
+            "episode_number": 6,
+            "episode_type": "standard",
+            "id": 29473,
+            "name": "George Washington Kissed Here",
+            "overview": "Scott wants Lindsay to play Martha to his George Washington in the school play about the American Revolution, but Tommy D and Vicki are not too happy about the idea.",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 0,
+            "vote_count": 0,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                }
+            ],
+            "guest_stars": []
+        },
+        {
+            "air_date": "1993-10-23",
+            "episode_number": 7,
+            "episode_type": "standard",
+            "id": 29471,
+            "name": "Homecoming King",
+            "overview": "Chad Westerfield, who has his eye on Megan, and Lindsay are leading candidates for Homecoming King and Queen.",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 0,
+            "vote_count": 0,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                }
+            ],
+            "guest_stars": [
+                {
+                    "character": "",
+                    "credit_id": "5253809f19c29579401cae5d",
+                    "order": 506,
+                    "adult": false,
+                    "gender": 2,
+                    "id": 11006,
+                    "known_for_department": "Acting",
+                    "name": "James Marsden",
+                    "original_name": "James Marsden",
+                    "popularity": 37.713,
+                    "profile_path": "/lf7OnfKZnMgNh9b98764tqSocGK.jpg"
+                }
+            ]
+        },
+        {
+            "air_date": "1993-10-30",
+            "episode_number": 8,
+            "episode_type": "standard",
+            "id": 29474,
+            "name": "Belding's Baby",
+            "overview": "Scott volunteers to babysit for Mr. Belding's son Zack. In order to impress a girl (Ashley), he offers up little Zack for a child modeling job.",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 9,
+            "vote_count": 1,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                }
+            ],
+            "guest_stars": [
+                {
+                    "character": "",
+                    "credit_id": "5253809f19c29579401caeeb",
+                    "order": 507,
+                    "adult": false,
+                    "gender": 1,
+                    "id": 1212502,
+                    "known_for_department": "Acting",
+                    "name": "Pamela Brull",
+                    "original_name": "Pamela Brull",
+                    "popularity": 5.789,
+                    "profile_path": null
+                }
+            ]
+        },
+        {
+            "air_date": "1993-11-06",
+            "episode_number": 9,
+            "episode_type": "standard",
+            "id": 29476,
+            "name": "Good-bye Megan",
+            "overview": "Megan's father, Judge Jones, wants his daughter to leave Bayside High and enroll in a private school.",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 9,
+            "vote_count": 1,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                }
+            ],
+            "guest_stars": [
+                {
+                    "character": "",
+                    "credit_id": "5253809f19c29579401caf63",
+                    "order": 508,
+                    "adult": false,
+                    "gender": 2,
+                    "id": 10090,
+                    "known_for_department": "Acting",
+                    "name": "Richard Lawson",
+                    "original_name": "Richard Lawson",
+                    "popularity": 18.859,
+                    "profile_path": "/zP1iQOP5aimsRlRENl2mPtXyRGH.jpg"
+                }
+            ]
+        },
+        {
+            "air_date": "1993-11-13",
+            "episode_number": 10,
+            "episode_type": "standard",
+            "id": 29480,
+            "name": "Swap Meet",
+            "overview": "Weasel finds out he has a rare misprinted version of a comic book that is very valuable. After he sells it, Scott tries to get it back so he can sell it himself, buy concert tickets, and take out a pretty new girl, Rachel.",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 10,
+            "vote_count": 1,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                },
+                {
+                    "department": "Writing",
+                    "job": "Writer",
+                    "credit_id": "525380a019c29579401cb01d",
+                    "adult": false,
+                    "gender": 2,
+                    "id": 107659,
+                    "known_for_department": "Writing",
+                    "name": "Todd J. Greenwald",
+                    "original_name": "Todd J. Greenwald",
+                    "popularity": 3.193,
+                    "profile_path": "/pZwnVN8vCdiMuDXBceYX8Dj72Fl.jpg"
+                }
+            ],
+            "guest_stars": [
+                {
+                    "character": "",
+                    "credit_id": "5253809f19c29579401caf27",
+                    "order": 501,
+                    "adult": false,
+                    "gender": 2,
+                    "id": 43858,
+                    "known_for_department": "Acting",
+                    "name": "Ryan Hurst",
+                    "original_name": "Ryan Hurst",
+                    "popularity": 29.481,
+                    "profile_path": "/467wpYYeeDyF4MeoDMuNp4bwgzH.jpg"
+                },
+                {
+                    "character": "",
+                    "credit_id": "525380a019c29579401cb057",
+                    "order": 511,
+                    "adult": false,
+                    "gender": 1,
+                    "id": 81217,
+                    "known_for_department": "Acting",
+                    "name": "Sarah Lancaster",
+                    "original_name": "Sarah Lancaster",
+                    "popularity": 19.102,
+                    "profile_path": "/hHSlXjohcTtjT8rjEhYMZQplZ08.jpg"
+                }
+            ]
+        },
+        {
+            "air_date": "1993-11-20",
+            "episode_number": 11,
+            "episode_type": "standard",
+            "id": 29478,
+            "name": "Weasel Love",
+            "overview": "Weasel's pen-pal Natalie comes to Bayside and joins the band, as do Scott and Tommy D, hoping to win a trip.",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 10,
+            "vote_count": 1,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                }
+            ],
+            "guest_stars": []
+        },
+        {
+            "air_date": "1993-11-27",
+            "episode_number": 12,
+            "episode_type": "standard",
+            "id": 29481,
+            "name": "Tommy A",
+            "overview": "In order to get a car from his father, Tommy D must receive an \"\"A\"\" in either physics or speech. The gang pitches in to help him succeed at this seemingly impossible task. Also, Megan finds herself acting like an airhead over a boy.",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 7,
+            "vote_count": 1,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                }
+            ],
+            "guest_stars": [
+                {
+                    "character": "",
+                    "credit_id": "525380a119c29579401cb09f",
+                    "order": 512,
+                    "adult": false,
+                    "gender": 2,
+                    "id": 154307,
+                    "known_for_department": "Acting",
+                    "name": "R.J. Williams",
+                    "original_name": "R.J. Williams",
+                    "popularity": 4.758,
+                    "profile_path": "/aOcv2Q7QeJJtgGbH2etX4kGGzkU.jpg"
+                },
+                {
+                    "character": "",
+                    "credit_id": "525380a119c29579401cb0c5",
+                    "order": 571,
+                    "adult": false,
+                    "gender": 2,
+                    "id": 104504,
+                    "known_for_department": "Acting",
+                    "name": "John Aprea",
+                    "original_name": "John Aprea",
+                    "popularity": 10.094,
+                    "profile_path": "/hZ8Wlv3WaRMqNrRtWZBkw4lcjJj.jpg"
+                },
+                {
+                    "character": "",
+                    "credit_id": "525380a119c29579401cb0f1",
+                    "order": 600,
+                    "adult": false,
+                    "gender": 2,
+                    "id": 55960,
+                    "known_for_department": "Acting",
+                    "name": "Louis Turenne",
+                    "original_name": "Louis Turenne",
+                    "popularity": 6.96,
+                    "profile_path": "/7Z0QkPQXv1j7AchZgakXlUi62oH.jpg"
+                }
+            ]
+        },
+        {
+            "air_date": "1993-12-04",
+            "episode_number": 13,
+            "episode_type": "finale",
+            "id": 29479,
+            "name": "Running the Max",
+            "overview": "As a class project, some of the Bayside students try their hand at operating the Max, but they nearly run it out of business. Then Scott takes over the management, much to Vicki's happiness.",
+            "production_code": "",
+            "runtime": 30,
+            "season_number": 1,
+            "show_id": 531,
+            "still_path": null,
+            "vote_average": 10,
+            "vote_count": 1,
+            "crew": [
+                {
+                    "department": "Directing",
+                    "job": "Director",
+                    "credit_id": "5253809d19c29579401cad9d",
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1214951,
+                    "known_for_department": "Directing",
+                    "name": "Don Barnhart",
+                    "original_name": "Don Barnhart",
+                    "popularity": 1.743,
+                    "profile_path": null
+                },
+                {
+                    "department": "Writing",
+                    "job": "Writer",
+                    "credit_id": "525380a019c29579401cb01d",
+                    "adult": false,
+                    "gender": 2,
+                    "id": 107659,
+                    "known_for_department": "Writing",
+                    "name": "Todd J. Greenwald",
+                    "original_name": "Todd J. Greenwald",
+                    "popularity": 3.193,
+                    "profile_path": "/pZwnVN8vCdiMuDXBceYX8Dj72Fl.jpg"
+                }
+            ],
+            "guest_stars": [
+                {
+                    "character": "",
+                    "credit_id": "525380a019c29579401caff1",
+                    "order": 510,
+                    "adult": false,
+                    "gender": 2,
+                    "id": 77588,
+                    "known_for_department": "Acting",
+                    "name": "Howard George",
+                    "original_name": "Howard George",
+                    "popularity": 4.736,
+                    "profile_path": null
+                }
+            ]
+        }
+    ],
+    "name": "Season 1",
+    "overview": "",
+    "id": 1604,
+    "poster_path": "/2HLMahBDYZQ16HyL205TOiKalZG.jpg",
+    "season_number": 1,
+    "vote_average": 9
+}

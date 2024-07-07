@@ -2,6 +2,7 @@ import axios from "axios"
 import { apiKey } from "../constants"
 
 const apiBaseUrl = `https://api.themoviedb.org/3`
+// movies
 const trendingMoviesEndpoint = `${apiBaseUrl}/trending/movie/day?api_key=${apiKey}`
 const upcomingMoviesEndpoint = `${apiBaseUrl}/movie/upcoming?api_key=${apiKey}`
 const topratedMoviesEndpoint = `${apiBaseUrl}/movie/top_rated?api_key=${apiKey}`
@@ -11,16 +12,27 @@ const similarMoviesEndpoint = id => `${apiBaseUrl}/movie/${id}/similar?api_key=$
 const personDetailsEndPoint = id => `${apiBaseUrl}/person/${id}?api_key=${apiKey}`
 const personMoviesEndpoint = id => `${apiBaseUrl}/person/${id}/movie_credits?api_key=${apiKey}`
 const searchMovieEndpoint = `${apiBaseUrl}/search/movie?api_key=${apiKey}`
+const movieVideosEndpoint = id => `${apiBaseUrl}/movie/${id}/videos?api_key=${apiKey}`
+// tv series
+const trendingTvSeriesEndpoint = `${apiBaseUrl}/trending/tv/day?api_key=${apiKey}`
+const onTheAirTvSeriesEndpoint = `${apiBaseUrl}/tv/on_the_air?api_key=${apiKey}`
+const airingTodayTvSeriesEndpoint = `${apiBaseUrl}/tv/airing_today?api_key=${apiKey}`
+const popularTvSeriesEndpoint = `${apiBaseUrl}/tv/popular?api_key=${apiKey}`
+const topRatedTvSeriesEndpoint = `${apiBaseUrl}/tv/top_rated?api_key=${apiKey}`
+const tvSeriesDetailsEndpoint = id => `${apiBaseUrl}/tv/${id}?api_key=${apiKey}`
+const tvSeriesVideosEndpoint = id => `${apiBaseUrl}/tv/${id}/videos?api_key=${apiKey}`
+const tvSeriesCreditsEndpoint = id => `${apiBaseUrl}/tv/${id}/credits?api_key=${apiKey}`
+const similarTvSeriesEndpoint = id => `${apiBaseUrl}/tv/${id}/similar?api_key=${apiKey}`
+const tvSeriesSeasonDetailsEndpoint = (series_id, season_number) => `${apiBaseUrl}/tv/${series_id}/season/${season_number}?api_key=${apiKey}`
+const searchTvSeriesEndpoint = `${apiBaseUrl}/search/tv?api_key=${apiKey}`
+const tvSeriesEpisodeCreditsEndpoint = (series_id, season_number, episode_number) => `${apiBaseUrl}/tv/${series_id}/season/${season_number}/episode/${episode_number}/credits?api_key=${apiKey}`
+const tvSeriesEpisodeVideosTrailerEndpoint = (series_id, season_number, episode_number) => `${apiBaseUrl}/tv/${series_id}/season/${season_number}/episode/${episode_number}/videos?api_key=${apiKey}`
 
 const apiCall = async (endpoint, params) => {
     const options = {
         method: 'GET',
         url: endpoint,
         params: params ? params : {},
-        // headers: {
-        //     accept: 'application/json',
-        //     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZTAxZDQ1ODI2MDA3ZWIxNWQ2YWE1OWNiZWZkZDFjOCIsInN1YiI6IjY2NzJkNTI1MmZiOGJiYTI5NjE2OWNhYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8r5BPjO0H_Womp2_OH8OhorWzG7vUfWE-1a1VG4iZNM'
-        // }
     }
     try {
         const response = await axios.request(options)
@@ -71,4 +83,60 @@ export const fetchPersonMovies = (id) => {
 
 export const searchMovies = (params) => {
     return apiCall(searchMovieEndpoint, params)
+}
+
+export const searchTVSeries = (params) => {
+    return apiCall(searchTvSeriesEndpoint, params)
+}
+
+export const fetchTrendingTvSeries = () => {
+    return apiCall(trendingTvSeriesEndpoint)
+}
+
+export const fetchOnTheAirTvSeries = () => {
+    return apiCall(onTheAirTvSeriesEndpoint)
+}
+
+export const fetchAiringTodayTvSeries = () => {
+    return apiCall(airingTodayTvSeriesEndpoint)
+}
+
+export const fetchPopularTvSeries = () => {
+    return apiCall(popularTvSeriesEndpoint)
+}
+
+export const fetchTopRatedTvSeries = () => {
+    return apiCall(topRatedTvSeriesEndpoint)
+}
+
+export const fetchTvSeriesDetails = (id) => {
+    return apiCall(tvSeriesDetailsEndpoint(id))
+}
+
+export const fetchMovieTrailerVideos = (id) => {
+    return apiCall(movieVideosEndpoint(id))
+}
+
+export const fetchTvSeriesSeasonDetails = (series_id, season_number) => {
+    return apiCall(tvSeriesSeasonDetailsEndpoint(series_id, season_number))
+}
+
+export const fetchSimilarTvSeries = (id) => {
+    return apiCall(similarTvSeriesEndpoint(id))
+}
+
+export const fetchTvSeriesCredits = (id) => {
+    return apiCall(tvSeriesCreditsEndpoint(id))
+}
+
+export const fetchTvSeriesEpisodeCredits = (series_id, season_number, episode_number) => {
+    return apiCall(tvSeriesEpisodeCreditsEndpoint(series_id, season_number, episode_number))
+}
+
+export const fetchTvSeriesEpisodeTrailerVideos = (series_id, season_number, episode_number) => {
+    return apiCall(tvSeriesEpisodeVideosTrailerEndpoint(series_id, season_number, episode_number))
+}
+
+export const fetchTvSeriesVideos = (id) => {
+    return apiCall(tvSeriesVideosEndpoint(id))
 }

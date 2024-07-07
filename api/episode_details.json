@@ -1,0 +1,29 @@
+{
+    "air_date": "1993-10-09",
+    "crew": [
+        {
+            "department": "Directing",
+            "job": "Director",
+            "credit_id": "5253809d19c29579401cad9d",
+            "adult": false,
+            "gender": 0,
+            "id": 1214951,
+            "known_for_department": "Directing",
+            "name": "Don Barnhart",
+            "original_name": "Don Barnhart",
+            "popularity": 1.743,
+            "profile_path": null
+        }
+    ],
+    "episode_number": 5,
+    "guest_stars": [],
+    "name": "Love Is on the Air",
+    "overview": "Scott signs up to get on the air at the school's radio station, hoping to attract the girls. But they all ignore him when they hear Weasel, who is giving advice on love and romance under the name \"\"Dr. Luv.\"\"",
+    "id": 29469,
+    "production_code": "",
+    "runtime": 30,
+    "season_number": 1,
+    "still_path": null,
+    "vote_average": 0,
+    "vote_count": 0
+}

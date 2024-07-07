@@ -4,9 +4,10 @@ import HomeScreen from "../screens/HomeScreen";
 import MovieDetailsScreen from "../screens/MovieDetailsScreen";
 import PersonScreen from "../screens/PersonScreen";
 import SearchScreen from "../screens/SearchScreen";
+import TvSeriesDetailsScreen from "../screens/TvSeriesDetailsScreen";
+import SeasonDetailsScreen from "../screens/SeasonDetailsScreen";
 
 const Stack = createNativeStackNavigator()
-
 export default function AppNavigation() {
     return (
         <NavigationContainer>
@@ -15,7 +16,8 @@ export default function AppNavigation() {
                 <Stack.Screen name="MovieDetails" options={{ headerShown: false }} component={MovieDetailsScreen} />
                 <Stack.Screen name="Person" options={{ headerShown: false }} component={PersonScreen} />
                 <Stack.Screen name="Search" options={{ headerShown: false }} component={SearchScreen} />
-
+                <Stack.Screen name="TvSeriesDetails" options={{ headerShown: false }} component={TvSeriesDetailsScreen} />
+                <Stack.Screen name="SeasonDetails" options={{ headerShown: false }} component={SeasonDetailsScreen} />
             </Stack.Navigator>
         </NavigationContainer>
     )

@@ -4,15 +4,18 @@ import { Dimensions, Image, Text, TouchableWithoutFeedback, View } from "react-n
 import Carousel from 'react-native-snap-carousel-new';
 import { fallbackMoviePoster, image500 } from "../api/moviedb";
 
-export default function TrendingMovies({ data }) {
+export default function TrendingMovies({ title, data }) {
     const navigation = useNavigation()
     const onPress = (item) => {
-        navigation.navigate('MovieDetails', item)
+        if (item.media_type == "movie")
+            navigation.navigate('MovieDetails', item)
+        if (item.media_type == "tv")
+            navigation.navigate('TvSeriesDetails', item)
     }
 
     return (
         <View className="mb-8">
-            <Text className="text-white text-xl mx-4 mb-5">Trending movies</Text>
+            <Text className="text-white text-xl mx-4 mb-5">{title}</Text>
             <Carousel
                 data={data}
                 renderItem={({ item }) => <MovieCard item={item} onPress={onPress} />}

@@ -1,0 +1,101 @@
+{
+    "id": 653,
+    "results": [
+        {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NOSFERATU \"Ellen sends Thomas to fetch Professor Bulwer\" Clip",
+            "key": "rg6FJfhy6GM",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2022-04-26T16:00:12.000Z",
+            "id": "62e192c7aa659e0050fcd156"
+        },
+        {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NOSFERATU \"Count Orlok awakens from a coffin on the journey to Wisborg\" Clip",
+            "key": "4MfFWfAn54g",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2022-04-04T16:00:13.000Z",
+            "id": "62e1926be18e3f0060dc2fec"
+        },
+        {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NOSFERATU \"Thomas accidentally cuts his thumb\" Clip",
+            "key": "9goNMDYdyY0",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2022-03-20T17:00:11.000Z",
+            "id": "62e1927d25a536004c4eac57"
+        },
+        {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "100th Anniversary Trailer",
+            "key": "npxhdRMYHy0",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2022-02-22T17:00:12.000Z",
+            "id": "62e1944a77070000500d9c7f"
+        },
+        {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer",
+            "key": "kD73Zz7yaec",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-12-23T14:19:14.000Z",
+            "id": "62cfd62d238513004d8e4115"
+        },
+        {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Nosferatu - Trailer",
+            "key": "tyE0dNqgDHQ",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2014-10-02T19:51:41.000Z",
+            "id": "5fdcf9a535d1bc003e76c3c7"
+        },
+        {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "2013 Theatrical Trailer (Masters of Cinema)",
+            "key": "0LOOhc2eML4",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2013-10-02T09:28:44.000Z",
+            "id": "62e193375ca704261af016f1"
+        },
+        {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Masters of Cinema Trailer with Original Score",
+            "key": "34J6KiA_HNo",
+            "site": "YouTube",
+            "size": 360,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2007-10-15T11:18:36.000Z",
+            "id": "62e1930348138212c9ec41b6"
+        }
+    ]
+}

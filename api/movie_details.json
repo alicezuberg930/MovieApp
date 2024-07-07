@@ -1,0 +1,75 @@
+{
+    "adult": false,
+    "backdrop_path": "/vVBcIN68kFq681b4lObiNJhEVro.jpg",
+    "belongs_to_collection": null,
+    "budget": 58000000,
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10749,
+            "name": "Romance"
+        }
+    ],
+    "homepage": "https://www.uphe.com/movies/a-beautiful-mind",
+    "id": 453,
+    "imdb_id": "tt0268978",
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_title": "A Beautiful Mind",
+    "overview": "In a decades-spanning biopic, brilliant mathematician John Forbes Nash Jr. makes history in his field as schizophrenia sets in.",
+    "popularity": 37.696,
+    "poster_path": "/26uu1IKOs81D7Pfz1iC9FgrwAk9.jpg",
+    "production_companies": [
+        {
+            "id": 33,
+            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+            "name": "Universal Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 7,
+            "logo_path": "/1kqoutvio9eDaQpp0l4gQoEF4Yf.png",
+            "name": "DreamWorks Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 23,
+            "logo_path": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+            "name": "Imagine Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 187063,
+            "logo_path": null,
+            "name": "Brian Grazer Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2001-12-14",
+    "revenue": 316800000,
+    "runtime": 135,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "He saw the world in a way no one could have imagined.",
+    "title": "A Beautiful Mind",
+    "video": false,
+    "vote_average": 7.859,
+    "vote_count": 9953
+}

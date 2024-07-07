@@ -1,11 +1,11 @@
 import React from "react";
-import { Dimensions, Image, ScrollView, Text, Touchable, TouchableOpacity, TouchableWithoutFeedback, View } from "react-native";
+import { Dimensions, Image, ScrollView, Text, TouchableOpacity, TouchableWithoutFeedback, View } from "react-native";
 import { styles } from "../theme";
 import { useNavigation } from "@react-navigation/native";
 import { fallbackMoviePoster, image185 } from "../api/moviedb";
 
 const { width, height } = Dimensions.get('window')
-export default function MovieList({ title, data, hideSeeAll }) {
+export default function MovieList({ title, data, hideSeeAll, type }) {
     const navigation = useNavigation()
     return (
         <View className="mb-8 space-y-4">
@@ -26,14 +26,15 @@ export default function MovieList({ title, data, hideSeeAll }) {
                     data.map((item, index) => {
                         return (
                             <TouchableWithoutFeedback key={index}
-                                onPress={() => navigation.navigate('MovieDetails', item)}
+                                onPress={() => type == "tv" ? navigation.navigate('TvSeriesDetails', item) : navigation.navigate('MovieDetails', item)}
                             >
                                 <View className="space-y-1 mr-4">
                                     <Image source={{ uri: image185(item.poster_path) || fallbackMoviePoster }}
                                         className="rounded-3xl"
                                         style={{ width: width * 0.33, height: height * 0.22 }} />
                                     <Text className="text-neutral-300 ml-1">
-                                        {item.title.length > 14 ? item.title.slice(0, 14) + '...' : item.title}
+                                        {type == "movie" ? item.title.length > 14 ? item.title.slice(0, 14) + '...' : item.title :
+                                            item.name?.length > 14 ? item.name?.slice(0, 14) + '...' : item.name}
                                     </Text>
                                 </View>
                             </TouchableWithoutFeedback>
