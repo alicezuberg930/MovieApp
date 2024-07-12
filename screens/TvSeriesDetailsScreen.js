@@ -99,7 +99,7 @@ export default function TvSeriesDetailsScreen() {
                     {/* genres */}
                     <View className="flex-row justify-center mx-4 space-x-2">
                         {
-                            tvSeries?.genres?.map((genre, index) => {
+                            tvSeries.genres?.map((genre, index) => {
                                 let showDot = index + 1 != tvSeries?.genres?.length
                                 return (
                                     <Text className="text-neutral-400 font-semibold text-base text-center" key={index}>
@@ -110,7 +110,7 @@ export default function TvSeriesDetailsScreen() {
                         }
                     </View>
                     {/* description */}
-                    <Text className="text-neutral-400 mx-4 tracking-wide">{tvSeries?.overview}</Text>
+                    <Text className="text-neutral-400 mx-4 tracking-wide">{tvSeries.overview}</Text>
                 </View>
             </View>
             {/* all seasons */}
@@ -123,7 +123,7 @@ export default function TvSeriesDetailsScreen() {
                             contentContainerStyle={{ paddingHorizontal: 15 }}
                         >
                             {
-                                tvSeries.seasons.map((season, index) => {
+                                tvSeries.seasons?.map((season, index) => {
                                     return (
                                         <TouchableWithoutFeedback key={index}
                                             onPress={() => navigation.navigate('SeasonDetails', { season: season, tvSeries: tvSeries })}
@@ -144,7 +144,7 @@ export default function TvSeriesDetailsScreen() {
                 )
             }
             {/* youtube trailers */}
-            {videos.length > 0 && <VideoList videos={videos} />}
+            {videos?.length > 0 && <VideoList videos={videos} />}
             {/* cast */}
             {cast?.length > 0 && <Cast navigation={navigation} cast={cast} />}
             {/* similar tv series list */}

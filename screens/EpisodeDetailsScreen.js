@@ -26,8 +26,6 @@ export default function EpisodeAAAA() {
     useEffect(() => {
         // call movie api
         getTvSeriesDetails(item.id)
-        // getTvSeriesCredits(item.id)
-        // getSimilarTvSeries(item.id)
         setLoading(false)
     }, [item])
 
@@ -40,11 +38,6 @@ export default function EpisodeAAAA() {
     const getTvSeriesCredits = async (id) => {
         const data = await fetchMovieCredits(id)
         if (data && data.cast) setCast(data.cast)
-    }
-
-    const getSimilarTvSeries = async (id) => {
-        const data = await fetchSimilarMovies(id)
-        if (data && data.results) similarTvSeries(data.results)
     }
 
     return (
@@ -93,7 +86,7 @@ export default function EpisodeAAAA() {
                     {/* genres */}
                     <View className="flex-row justify-center mx-4 space-x-2">
                         {
-                            tvSeries?.genres?.map((genre, index) => {
+                            tvSeries.genres?.map((genre, index) => {
                                 let showDot = index + 1 != tvSeries?.genres?.length
                                 return (
                                     <Text className="text-neutral-400 font-semibold text-base text-center" key={index}>
@@ -137,8 +130,6 @@ export default function EpisodeAAAA() {
                     </View>
                 ) : null
             }
-            {/* similar tv series list */}
-            {/* {similarMovies?.length > 0 && <MovieList title="Similar TV Series" type="tv" hideSeeAll={true} data={similarTvSeries} />} */}
         </ScrollView>
     )
 }

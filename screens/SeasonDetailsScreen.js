@@ -131,10 +131,10 @@ export default function SeasonDetailsScreen() {
                     ) : null
                 }
                 {/* youtube trailers */}
-                {videos.length > 0 && <VideoList videos={videos} />}
+                {videos?.length > 0 && <VideoList videos={videos} />}
                 {/* guest star */}
                 {
-                    episode.guest_stars.length > 0 ? (
+                    episode.guest_stars?.length > 0 ? (
                         <Cast navigation={navigation} name="Guest Stars" cast={episode.guest_stars} />
                     ) : null
                 }

@@ -11,12 +11,10 @@ const { width, height } = Dimensions.get('window')
 export default function SearchScreen() {
     const navigation = useNavigation()
     const [results, setResults] = useState([])
-    const [type, setType] = useState("tv_series")
+    const [type, setType] = useState("movie")
     const [loading, setLoading] = useState(false)
 
     const handleSearch = async (value) => {
-        console.log(type);
-
         if (value && value.length > 3) {
             setLoading(true)
             let data;
@@ -58,7 +56,7 @@ export default function SearchScreen() {
         <SafeAreaView className="bg-neutral-800 flex-1">
             <View className="mx-4 my-3 flex-row justify-between items-center border border-neutral-500 rounded-full">
                 <TextInput placeholder="Search movie" placeholderTextColor={'lightgray'}
-                    onChangeText={handleSearch}
+                    onSubmitEditing={(event) => handleSearch(event.nativeEvent.text)}
                     className="p-3 flex-1 text-base font-semibold text-white tracking-wider"
                 />
                 <TouchableOpacity onPress={() => navigation.navigate('Home')}
@@ -71,7 +69,6 @@ export default function SearchScreen() {
                 <TouchableOpacity className={"p-2 rounded-lg " + bgColorMovie}
                     onPress={() => {
                         setType("movie")
-                        console.log(type);
                         setResults([])
                     }}
                 >
@@ -81,8 +78,6 @@ export default function SearchScreen() {
                 <TouchableOpacity className={"p-2 rounded-lg " + bgColorTV}
                     onPress={() => {
                         setType("tv_series")
-                        
-                        console.log(type);
                         setResults([])
                     }}
                 >
@@ -107,8 +102,9 @@ export default function SearchScreen() {
                                                         style={{ width: width * 0.44, height: height * 0.3 }}
                                                     />
                                                     <Text className="text-neutral-300 ml-1">
-                                                        {type == "movie" ? item?.title.length > 22 ? item?.title.slice(0, 22) + '...' : item?.title
-                                                            : item?.name.length > 22 ? item?.name.slice(0, 22) + '...' : item?.name}
+                                                        {
+                                                            type == "movie" ? item?.title.length > 22 ? item?.title.slice(0, 22) + '...' : item?.title : item?.name.length > 22 ? item?.name.slice(0, 22) + '...' : item?.name
+                                                        }
                                                     </Text>
                                                 </View>
                                             </TouchableWithoutFeedback>

@@ -24,14 +24,14 @@ export default function HomeScreen() {
 
     useEffect(() => {
         // movies
-        // getTrendingMovies()
-        // getUpcomingMovies()
-        // getTopRatedMovies()
-        
+        getTrendingMovies()
+        getUpcomingMovies()
+        getTopRatedMovies()
+         
         // tv series
-        // getTrendingTvSeries()
-        // getOnTheAirTvSeries()
-        // getAiringTodayTvSeries()
+        getTrendingTvSeries()
+        getOnTheAirTvSeries()
+        getAiringTodayTvSeries()
 
         setLoading(false)
     }, [])
