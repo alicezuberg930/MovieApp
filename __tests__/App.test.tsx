@@ -7,11 +7,27 @@ import React from 'react';
 import App from '../App';
 
 // Note: import explicitly to use the types shipped with jest.
-import {it} from '@jest/globals';
+import {beforeEach, it} from '@jest/globals';
 
 // Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
+import renderer, {act} from 'react-test-renderer';
 
-it('renders correctly', () => {
-  renderer.create(<App />);
+beforeEach(() => {
+  global.fetch = (async () =>
+    ({
+      ok: true,
+      json: async () => ({results: []}),
+    } as Response)) as typeof fetch;
+});
+
+it('renders correctly', async () => {
+  let app: renderer.ReactTestRenderer | undefined;
+
+  await act(async () => {
+    app = renderer.create(<App />);
+  });
+
+  await act(async () => {
+    app?.unmount();
+  });
 });
